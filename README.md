@@ -14,7 +14,7 @@ Variable values are not entered manually in the terminal, but assigned in a sepe
 
 ## How to apply variables
 
-Example ofsing a variable file:
+Example of using a variable file:
 
 ```bash
 terraform apply -var-file=prod.tfvars
@@ -24,9 +24,4 @@ terraform apply -var-file=prod.tfvars
 terraform init
 terraform plan
 terraform apply
-
-### Destroy resources when finished
-
-```
-terraform destroy
-```
+terraform destroy   # Destroy resources when finished
